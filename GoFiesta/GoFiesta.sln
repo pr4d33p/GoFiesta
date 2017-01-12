@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{E6F5563A-BA46-43CE-8CAD-D278A049BC42}"
 EndProject
@@ -11,8 +11,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApis", "WebApis", "{676B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{7C8AD436-B41F-46EF-851D-76464F40C1AC}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "GoFiestaDB", "Database\GoFiestaDB\GoFiestaDB.sqlproj", "{8862AE43-1961-426D-BB73-A01FFFF40A91}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8862AE43-1961-426D-BB73-A01FFFF40A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8862AE43-1961-426D-BB73-A01FFFF40A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8862AE43-1961-426D-BB73-A01FFFF40A91}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8862AE43-1961-426D-BB73-A01FFFF40A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8862AE43-1961-426D-BB73-A01FFFF40A91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8862AE43-1961-426D-BB73-A01FFFF40A91}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8862AE43-1961-426D-BB73-A01FFFF40A91} = {E6F5563A-BA46-43CE-8CAD-D278A049BC42}
 	EndGlobalSection
 EndGlobal
